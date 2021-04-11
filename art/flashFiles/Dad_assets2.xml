@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dad_assets2.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bob Sing Note DOWN0000" x="0" y="0" width="263" height="281" pivotX="0" pivotY="0"/>
+	<SubTexture name="bob Sing Note LEFT0000" x="263" y="0" width="296" height="399" pivotX="0" pivotY="0"/>
+	<SubTexture name="bob Sing note UP0000" x="559" y="0" width="299" height="367" pivotX="0" pivotY="0"/>
+	<SubTexture name="bob idle dance0000" x="0" y="399" width="293" height="372" pivotX="0" pivotY="0"/>
+	<SubTexture name="bob sing note right0000" x="293" y="399" width="309" height="373" pivotX="0" pivotY="0"/>
+</TextureAtlas>
