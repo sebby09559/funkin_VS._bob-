@@ -246,7 +246,7 @@ class PlayState extends MusicBeatState
 
 		                  isHalloween = true;
 		          }
-		          case 'pico' | 'blammed' | 'philly' | 'bob': 
+		          case 'pico' | 'blammed' | 'philly': 
                         {
 		                  curStage = 'philly';
 
@@ -616,6 +616,9 @@ class PlayState extends MusicBeatState
 				camPos.x += 600;
 				dad.y += 300;
 			case 'bob':
+				camPos.x += 600;
+				dad.y += 300;
+			case 'bob2':
 				camPos.x += 600;
 				dad.y += 300;
 			case 'parents-christmas':

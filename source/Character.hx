@@ -304,6 +304,45 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+				
+			case 'bob2':
+				tex = Paths.getSparrowAtlas('Pico_FNF_assetss3');
+				frames = tex;
+				animation.addByPrefix('idle', "bob2 Idle Dance", 24);
+				animation.addByPrefix('singUP', 'bob2 Up note0', 24, false);
+				animation.addByPrefix('singDOWN', 'bob2 Down Note0', 24, false);
+				if (isPlayer)
+				{
+					animation.addByPrefix('singLEFT', 'bob2 NOTE LEFT0', 24, false);
+					animation.addByPrefix('singRIGHT', 'bob2 Note Right0', 24, false);
+					animation.addByPrefix('singRIGHTmiss', 'bob2 Note Right Miss', 24, false);
+					animation.addByPrefix('singLEFTmiss', 'bob2 NOTE LEFT miss', 24, false);
+				}
+				else
+				{
+					// Need to be flipped! REDO THIS LATER!
+					animation.addByPrefix('singLEFT', 'bob2 Note Right0', 24, false);
+					animation.addByPrefix('singRIGHT', 'bob2 NOTE LEFT0', 24, false);
+					animation.addByPrefix('singRIGHTmiss', 'bob2 NOTE LEFT miss', 24, false);
+					animation.addByPrefix('singLEFTmiss', 'bob2 Note Right Miss', 24, false);
+				}
+
+				animation.addByPrefix('singUPmiss', 'bob2 Up note miss', 24);
+				animation.addByPrefix('singDOWNmiss', 'bob2 Down Note MISS', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -29, 27);
+				addOffset("singRIGHT", -68, -7);
+				addOffset("singLEFT", 65, 9);
+				addOffset("singDOWN", 200, -70);
+				addOffset("singUPmiss", -19, 67);
+				addOffset("singRIGHTmiss", -60, 41);
+				addOffset("singLEFTmiss", 62, 64);
+				addOffset("singDOWNmiss", 210, -28);
+
+				playAnim('idle');
+
+				flipX = true;
 			
 			case 'bf':
 				var tex = Paths.getSparrowAtlas('BOYFRIEND');
