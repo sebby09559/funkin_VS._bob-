@@ -1,3 +1,4 @@
+if your editing this mod please let me know about what your doing on this page's comment section https://gamejolt.com/games/fnf_vs_bob_mod/605786
 # Friday Night Funkin
 
 This is the repository for Friday Night Funkin, a game originally made for Ludum Dare 47 "Stuck In a Loop".
